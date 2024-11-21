@@ -10,9 +10,6 @@ This project involves designing and implementing a database system to analyze de
 - [Installation](#installation)
 - [Usage](#usage)
 - [Sample Queries](#sample-queries)
-- [Contributing](#contributing)
-- [License](#license)
-
 ---
 
 ## Project Description
