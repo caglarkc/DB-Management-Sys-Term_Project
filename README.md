@@ -1,4 +1,3 @@
-```
 # Educational Insights Database
 
 This project involves designing and implementing a database system to analyze demographic, educational, and extracurricular data for students. The system is designed to answer various queries, perform data analysis, and provide insights into education-related trends.
@@ -126,7 +125,7 @@ GROUP BY Ikametgah_Sehri;
 
 ## Sample Queries
 
-1. Average GPA by City:
+1. **Average GPA by City**:
    ```sql
    SELECT Ikametgah_Sehri, AVG(Universite_Not_Ortalamasi) AS Avg_GPA
    FROM Kisiler
@@ -134,22 +133,41 @@ GROUP BY Ikametgah_Sehri;
    GROUP BY Ikametgah_Sehri;
    ```
 
-2. Count Students in Clubs:
+2. **Count Students in Clubs**:
    ```sql
    SELECT COUNT(*) AS ClubMembers
    FROM AktivitelerVeKulupler
    WHERE Girisimcilik_Kulupleri_Tarzi = 'evet';
    ```
 
-3. Percentage of Full Bursaries:
+3. **Percentage of Full Bursaries**:
    ```sql
    SELECT (COUNT(*) * 100.0 / (SELECT COUNT(*) FROM Burslar)) AS FullBursaryPercentage
    FROM Burslar
    WHERE Burs_Yuzdesi = 100;
    ```
 
+---
+
+## Contributing
+
+We welcome contributions! Please:
+- Fork this repository.
+- Create a new branch: `git checkout -b feature/YourFeatureName`
+- Commit your changes: `git commit -m 'Add YourFeatureName'`
+- Push to the branch: `git push origin feature/YourFeatureName`
+- Submit a pull request.
+
+---
 
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 ```
+
+### **Nasıl Kullanılır?**
+1. Markdown dosyasını bir `README.md` dosyası olarak kaydedin.
+2. Proje dizinine ekleyin.
+3. GitHub'a yüklerken bu dosya ana sayfa olarak gösterilecektir. 
+
+Eğer eklemeler yapmak isterseniz, bana söyleyebilirsiniz! 😊
