@@ -1,5 +1,3 @@
-Aşağıda bu proje için bir **`README.md`** dosyası yer almaktadır. Markdown formatında yazılmıştır ve GitHub'da kullanılmaya hazırdır.
-
 ```markdown
 # Educational Insights Database
 
