@@ -1,4 +1,4 @@
-```markdown
+```
 # Educational Insights Database
 
 This project involves designing and implementing a database system to analyze demographic, educational, and extracurricular data for students. The system is designed to answer various queries, perform data analysis, and provide insights into education-related trends.
@@ -126,7 +126,7 @@ GROUP BY Ikametgah_Sehri;
 
 ## Sample Queries
 
-1. **Average GPA by City**:
+1. Average GPA by City:
    ```sql
    SELECT Ikametgah_Sehri, AVG(Universite_Not_Ortalamasi) AS Avg_GPA
    FROM Kisiler
@@ -134,14 +134,14 @@ GROUP BY Ikametgah_Sehri;
    GROUP BY Ikametgah_Sehri;
    ```
 
-2. **Count Students in Clubs**:
+2. Count Students in Clubs:
    ```sql
    SELECT COUNT(*) AS ClubMembers
    FROM AktivitelerVeKulupler
    WHERE Girisimcilik_Kulupleri_Tarzi = 'evet';
    ```
 
-3. **Percentage of Full Bursaries**:
+3. Percentage of Full Bursaries:
    ```sql
    SELECT (COUNT(*) * 100.0 / (SELECT COUNT(*) FROM Burslar)) AS FullBursaryPercentage
    FROM Burslar
