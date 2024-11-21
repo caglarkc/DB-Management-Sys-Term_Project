@@ -148,26 +148,3 @@ GROUP BY Ikametgah_Sehri;
    ```
 
 ---
-
-## Contributing
-
-We welcome contributions! Please:
-- Fork this repository.
-- Create a new branch: `git checkout -b feature/YourFeatureName`
-- Commit your changes: `git commit -m 'Add YourFeatureName'`
-- Push to the branch: `git push origin feature/YourFeatureName`
-- Submit a pull request.
-
----
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-```
-
-### **Nasıl Kullanılır?**
-1. Markdown dosyasını bir `README.md` dosyası olarak kaydedin.
-2. Proje dizinine ekleyin.
-3. GitHub'a yüklerken bu dosya ana sayfa olarak gösterilecektir. 
-
-Eğer eklemeler yapmak isterseniz, bana söyleyebilirsiniz! 😊
